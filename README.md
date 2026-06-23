@@ -19,37 +19,5 @@ PyTorch
 Uvicorn
 
 
-Project Structure
-Text-Summarizer-Agent/
-│
-├── app/
-│   ├── main.py
-│   ├── summarizer.py
-│   └── models.py
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── sample_input.txt
-API Endpoint
-POST /summarize
 
-Request:
 
-{
-  "text": "Long article text..."
-}
-
-Response:
-
-{
-  "summary": "Generated summary text..."
-}
-Installation
-git clone https://github.com/yourusername/Text-Summarizer-Agent.git
-
-cd Text-Summarizer-Agent
-
-pip install -r requirements.txt
-
-uvicorn app.main:app --reload
